@@ -1,4 +1,4 @@
-## Python Basics
+## A. Python Basics
 
 1. *[Simple Arithmetic](./1Simple_Arithmetic.py)*
 2. *[Simple Arithmetic - Get input from User (+,-,*,%)](./2Simple_Arithmetic%20-%20Get_input_from_User.py)*
