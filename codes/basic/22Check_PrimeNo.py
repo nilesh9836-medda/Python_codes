@@ -17,4 +17,8 @@ def PrimeCheck(n):
         print(f"{n} is not a Prime Number")
 
 n = int(input("Enter a number: "))
+<<<<<<< HEAD
 PrimeCheck(n)
+=======
+PrimeCheck(n)
+>>>>>>> 21c1246 (UPDATE)
