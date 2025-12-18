@@ -17,7 +17,7 @@ The codes are organized into distinct folders based on the domain or complexity.
 | codes |   | Main directory for all categorized code.|
 | [**codes/basic/**](./codes/basic/basiccodelist.md) | **Active** | Fundamental Python syntax,operators,control flow, functions, etc. *(Currently working here)*|
 | **codes/algorithms/** | Planning | Sorting, searching, recursion, and general algorithmic problem-solving. |
-| **codes/data_structures/** | Planning | Implementations of lists, dictionsries, stacks, queues, trees, graphs, etc. |
+| **codes/data_structures/** | Planning | Implementations of lists, dictionaries, stacks, queues, trees, graphs, etc. |
 
 ## 📄 License
 
