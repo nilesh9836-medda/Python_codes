@@ -26,22 +26,19 @@ jobs:
           find . -name "*.py" -not -path "./.venv/*" \
             -exec python -m py_compile {} \;
 
-      - name: Verify Jupyter notebooks (JSON validity'
-)
-  run: |
-    echo "Checking Jupyter notebooks..."
-    files=$(find . -name "*.import json, sys, subprocess
-import pathlib
+      - name: Verify Jupyter notebooks (JSON validity)
+        run: |
+          echo "Checking Jupyter notebooks..."
+          python - <<'EOF'
+          import json
+          from pathlib import Path
 
-notebooks = list(pathlib.Path('.').rglob('*.ipynb'))
-for nbipynb")
-    if [ -n "$ in notebooks:
-    with open(nb, "r", encoding="utf-8") as f:
-files" ]; then
-      python - <<'EOF' $files
-import json, sys        json.load(f)
-print("All notebooks are
-for file in sys.argv[1:]:
- valid JSON.")
-EOF   
+          notebooks = list(Path(".").rglob("*.ipynb"))
+
+          for nb in notebooks:
+              with open(nb, "r", encoding="utf-8") as f:
+                  json.load(f)
+
+          print(f"Validated {len(notebooks)} notebooks successfully.")
+          EOF
 
