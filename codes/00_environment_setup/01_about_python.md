@@ -34,7 +34,7 @@ To give you an idea of how "clean" Python is, here is how you print "Hello World
 
 **In Python:**
 
-```
+```python
 print("Hello, World!")
 
 ```
@@ -42,7 +42,7 @@ print("Hello, World!")
 
 **In C++:**
 
-```
+```c++
 #include <iostream>
 int main() {
     std::cout << "Hello, World!";
