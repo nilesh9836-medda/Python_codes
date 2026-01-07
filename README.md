@@ -26,7 +26,7 @@ This repo solves that by providing:
 ## 📚 Contents (Learning Roadmap)
 
 ### Foundations
-- **[00_environment_setup](./codes/00_environment_setup.md)** — Python setup, virtual environments, tooling
+- **[00_environment_setup](./codes/00_environment_setup/README.md)** — Python setup, virtual environments, tooling
 - **01_python_basics** — Syntax, variables, keywords, comments
 - **02_data_types** — Numbers, strings, lists, tuples, sets, dictionaries
 - **03_control_flow** — Conditionals, loops, comprehensions
