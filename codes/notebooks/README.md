@@ -21,7 +21,7 @@ They complement the `.py` files but **do not replace them**.
 
 ## 📂 Contents
 
-1. **[Jupyter Notebook for knowing about Python Syntax, Variables, Comments, and Keywords](./Python_Syntax_Variable_Comments_Keywords.ipynb)**
+1. **[Jupyter Notebook for knowing about Python Syntax, Variables, Comments, and Keywords](./01_Python_Syntax_Variable_Comments_Keywords.ipynb)**
 
 
 
