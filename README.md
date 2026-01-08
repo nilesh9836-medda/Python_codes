@@ -57,7 +57,7 @@ This repo solves that by providing:
 
 ### Extras
 - **projects/** — End-to-end real-world Python projects
-- **notebooks/** — Jupyter notebooks for experimentation and learning
+- **[notebooks](./codes/notebooks/README.md)** — Jupyter notebooks for experimentation and learning
 
 ---
 
