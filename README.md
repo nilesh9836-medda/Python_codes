@@ -26,11 +26,18 @@ This repo solves that by providing:
 
 ## 📚 Contents (Learning Roadmap)
 
-### Foundations
+### Fundamentals
 
-- **[00. Environment Setup](./codes/00_environment_setup/README.md)** — *Python setup, virtual environments, tooling*
+- **[00. Python Environment Setup](./codes/00_environment_setup/README.md)** — *Python setup, virtual environments, tooling*
+
 - **[01. Python Basics](./codes/01_python_basics/README.md)** — *Syntax, variables, keywords, comments*
-- **[02. Data Types](./codes/02_data_types/README.md)** — *Numbers, strings, lists, tuples, sets, dictionaries*
+
+- **[02. Data Types in Python](./codes/02_data_types/README.md)** — *Numbers, strings, lists, tuples, sets, dictionaries*
+
+- **[03. Input and Output in Python](./codes/03_IO/README.md)** &mdash; *Input(), print()*
+
+- **[04. Python Operators](./codes/04_operators/README.md)** &mdash; **
+
 - **03_control_flow** — Conditionals, loops, comprehensions
 - **04_functions** — Writing reusable, modular code
 
