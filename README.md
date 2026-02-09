@@ -36,7 +36,7 @@ This repo solves that by providing:
 
 - **[03. Input and Output in Python](./codes/03_IO/README.md)** &mdash; *Input(), print()*
 
-- **[04. Python Operators](./codes/04_operators/README.md)** &mdash; **
+- **[04. Python Operators](./codes/04_operators/README.md)** &mdash; *Arithmetic, Relational, Logical, Assignment, Bitwise Operators and more...*
 
 - **03_control_flow** — Conditionals, loops, comprehensions
 - **04_functions** — Writing reusable, modular code
