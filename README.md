@@ -39,6 +39,7 @@ This repo solves that by providing:
 - **[04. Python Operators](./codes/04_operators/README.md)** &mdash; *Arithmetic, Relational, Logical, Assignment, Bitwise Operators and more...*
 
 - **[05. Decision-Making in Python](./codes/05_ifelse/README.md)** &mdash; *If...Else statement, Elif statement*
+- **[06. Comparisons in Python](./codes/06_comparisons/README.md)**
 
 - **03_control_flow** — Conditionals, loops, comprehensions
 - **04_functions** — Writing reusable, modular code
