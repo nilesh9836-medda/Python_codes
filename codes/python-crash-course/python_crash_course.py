@@ -64,4 +64,71 @@ print(f'My sister is {b} years older than me')
 
 import this
 
+"""### Chapter 3: Introducing Lists"""
+
+# Create a list
+motorcycles = ['honda', 'yamaha', 'suzuki']
+
+# Print the whole list
+print(motorcycles)
+
+# Accessing elements in a list
+print(motorcycles[1])
+
+# Using Individual Values from a List
+print("My first bicycle was a " + motorcycles[0].title() + ".")
+
+# Modifying Elements in a List
+motorcycles[0] = 'ducati'
+print(motorcycles)
+
+# Appending Elements to the End of a List
+motorcycles.append('Honda')
+print(motorcycles)
+
+# Inserting Elements into a List
+motorcycles.insert(0, 'tvs')
+print(motorcycles)
+
+# Removing an Item Using the del Statement
+del motorcycles[0]
+print(motorcycles)
+
+# Removing an Item Using the pop() Method
+popped_motorcycle = motorcycles.pop()
+print(motorcycles)
+print(popped_motorcycle)
+
+# Popping Items from any Position in a List
+first_owned = motorcycles.pop(0)
+print('The first motorcycle I owned was a ' + first_owned.title() + '.')
+
+# Removing an Item by Value
+motorcycles = ['honda', 'yamaha', 'suzuki', 'ducati']
+print(motorcycles)
+motorcycles.remove('ducati')
+print(motorcycles)
+
+
+# Sorting a List Permanently with the sort() Method
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+cars.sort()
+print(cars)
+
+# Sorting a List Temporarily with the sorted() Function
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+print("Here is the original list:")
+print(cars)
+print("\nHere is the sorted list:")
+print(sorted(cars))
+print("\nHere is the original list again:")
+print(cars)
+
+# Printing a List in Reverse Order
+cars.reverse()
+print(cars)
+
+# Finding the Length of a List
+len(cars)
+
 """## Part II: Projects"""
