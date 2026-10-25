@@ -219,4 +219,109 @@ task = []
 if task: print('some task remained')
 else: print('all task done')
 
+"""### Chapter 5: Dictionaries"""
+
+# A simple dictionary
+alien_0 = {'color': 'green', 'points': 5}
+print(alien_0['color'])
+print(alien_0['points'])
+
+# Starting with an Empty Dictionary
+alien_0 = {}
+alien_0['color'] = 'green'
+alien_0['points'] = 5
+print(alien_0)
+
+# Removing Key-Value Pairs
+alien_0 = {'color': 'green', 'points': 5}
+print(alien_0)
+del alien_0['points']
+print(alien_0)
+
+# Looping Through All Key-Value Pairs
+user_0 = {
+'username': 'efermi',
+'first': 'enrico',
+'last': 'fermi',
+}
+for key, value in user_0.items():
+  print("\nKey: " + key)
+  print("Value: " + value)
+
+# Looping Through All the Keys in a Dictionary
+favorite_languages = {
+'jen': 'python',
+'sarah': 'c',
+'edward': 'ruby',
+'phil': 'python',
+}
+for name in favorite_languages.keys():
+  print(name.title())
+
+# Looping Through a Dictionary’s Keys in Order
+favorite_languages = {
+'jen': 'python',
+'sarah': 'c',
+'edward': 'ruby',
+'phil': 'python',
+}
+for name in sorted(favorite_languages.keys()):
+  print(name.title() + ", thank you for taking the poll.")
+
+# Looping Through All Values in a Dictionary
+favorite_languages = {
+'jen': 'python',
+'sarah': 'c',
+'edward': 'ruby',
+'phil': 'python',
+}
+print("The following languages have been mentioned:")
+for language in favorite_languages.values():
+  print(language.title())
+
+# Make an empty list for storing aliens.
+aliens = []
+# Make 30 green aliens.
+for alien_number in range(30):
+  new_alien = {'color': 'green', 'points': 5, 'speed': 'slow'}
+  aliens.append(new_alien)
+# Show the first 5 aliens:
+for alien in aliens[:5]:
+  print(alien)
+print("...")
+# Show how many aliens have been created.
+print("Total number of aliens: " + str(len(aliens)))
+
+# A List in a Dictionary
+
+# Store information about a pizza being ordered.
+pizza = {
+    'crust': 'thick',
+    'toppings': ['mushrooms', 'extra cheese'],
+}
+# Summarize the order.
+print("You ordered a " + pizza['crust'] + "-crust pizza " + "with the following toppings:")
+for topping in pizza['toppings']:
+  print("\t" + topping)
+
+# A Dictionary in a Dictionary
+users = {
+    'aeinstein': {
+      'first': 'albert',
+      'last': 'einstein',
+      'location': 'princeton',
+},
+    'mcurie': {
+      'first': 'marie',
+      'last': 'curie',
+      'location': 'paris',
+},
+}
+for username, user_info in users.items():
+  print("\nUsername: " + username)
+  full_name = user_info['first'] + " " + user_info['last']
+  location = user_info['location']
+  print("\tFull name: " + full_name.title())
+  print("\tLocation: " + location.title())
+
 """## Part II: Projects"""
