@@ -131,4 +131,57 @@ print(cars)
 # Finding the Length of a List
 len(cars)
 
+"""### Chapter 4: Working with Lists"""
+
+# Looping through entire list
+magicians = ['alice', 'david', 'carolina']
+for magician in magicians:
+  print(magician.title() + ", that was a great trick!")
+
+# Making Numerical List using range() function
+for value in range(1,5):
+  print(value)
+
+# Using the range() function to make a list of number
+value = list(range(1, 6))
+print(value)
+
+# Print a square list
+square = []
+for i in range(1,11):
+  square.append(i**2)
+print(square)
+
+# Simple Statistics with a List of Numbers
+print('Minimum: ',min(square))
+print('Maximum: ',max(square))
+print('sum: ',sum(square))
+print('Average: ', sum(square)/len(square))
+
+# List comprehension
+squares = [value**2 for value in range(1,12)]
+print(squares)
+
+# Slicing a list --> list[start:stop:step]
+players = ['charles', 'martina', 'michael', 'florence', 'eli']
+print(players)
+print(players[1:3])
+print(players[:4])
+print(players[2:])
+print(players[-2:])
+print(players[0::2])
+
+# Copying a list
+my_foods = ['pizza', 'falafel', 'carrot cake']
+friend_foods = my_foods[:]
+print(friend_foods)
+
+
+# Tuple
+name = ('first-name', 'second-name')
+print(name)
+#name[0] = 'First_name'
+# Error... Because 'tuple' object does not support item assignment
+print(name)
+
 """## Part II: Projects"""
