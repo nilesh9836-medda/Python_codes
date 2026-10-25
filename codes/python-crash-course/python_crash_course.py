@@ -184,4 +184,39 @@ print(name)
 # Error... Because 'tuple' object does not support item assignment
 print(name)
 
+"""### Chapter 5: If Statements"""
+
+# The if-elif-else Chain
+age = 12
+if age < 4:
+  price = 0
+elif age < 18:
+ price = 5
+else:
+  price = 10
+print("Your admission cost is $" + str(price) + ".")
+
+# if statement on list
+requested_toppings = ['mushrooms', 'extra cheese']
+if 'mushrooms' in requested_toppings:
+  print("Adding mushrooms.")
+if 'pepperoni' in requested_toppings:
+  print("Adding pepperoni.")
+if 'extra cheese' in requested_toppings:
+  print("Adding extra cheese.")
+print("\nFinished making your pizza!")
+
+# Check if the number is Prime or not
+value1, value2 = 18, 19
+primes = [i for i in range(2, 101) if all(i%j!=0 for j in range(2, int(i**0.5) + 1))]
+if value1 in primes: print('Prime Number')
+else: print('Not prime number')
+if value2 in primes: print('Prime Number')
+else: print('Not prime number')
+
+# Checking empty list
+task = []
+if task: print('some task remained')
+else: print('all task done')
+
 """## Part II: Projects"""
