@@ -219,7 +219,7 @@ task = []
 if task: print('some task remained')
 else: print('all task done')
 
-"""### Chapter 5: Dictionaries"""
+"""### Chapter 6: Dictionaries"""
 
 # A simple dictionary
 alien_0 = {'color': 'green', 'points': 5}
@@ -323,5 +323,57 @@ for username, user_info in users.items():
   location = user_info['location']
   print("\tFull name: " + full_name.title())
   print("\tLocation: " + location.title())
+
+"""### Chapter 7: User Input and While Loops"""
+
+# The input() function
+message = input("Tell me something, and I will repeat it back to you: ")
+print(message)
+
+# Taking integer input
+value = int(input('Enter your value: '))
+print('Square: ', value**2)
+
+# While loop
+
+# Print 1 to 50
+i = 1
+while i <= 50:
+  print(i, end=' ')
+  i += 1
+
+# Letting the User Choose When to Quit
+print('Lets add all numbers:')
+sum = 0
+print('Current Total:',sum)
+i = 1
+msg = ""
+while msg != "quit":
+  print('Next Add', i)
+  sum += i
+  print('Current Total:',sum)
+  msg = input('If you want to continue press "Enter" or to quit write "quit": ')
+  i += 1
+
+# Continue and Break
+current_number = 0
+while True:
+  current_number += 1
+  if current_number > 20: break
+  if current_number % 2 == 0: continue
+  print(current_number)
+
+# While loop & Dictionaries
+
+# A students registration system
+print('----- Students Registration -----')
+active = 1
+students = []
+while active:
+  name = input('Enter student name: ')
+  marks = int(input('Enter marks: '))
+  new_student = {'student': name, 'marks': marks}
+  students.append(new_student)
+  active = int(input('Want to enlist another student: 1|0 -->'))
 
 """## Part II: Projects"""
