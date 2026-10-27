@@ -376,4 +376,16 @@ while active:
   students.append(new_student)
   active = int(input('Want to enlist another student: 1|0 -->'))
 
+"""### Chapter 8: Functions"""
+
+# Defining function
+def greet_user():
+  print('Hello')
+greet_user()
+
+# Passing Information to a Function
+def greet_user(name):
+  print('Hello',name.title())
+greet_user('Bob')
+
 """## Part II: Projects"""
