@@ -388,4 +388,19 @@ def greet_user(name):
   print('Hello',name.title())
 greet_user('Bob')
 
+# Returning a simple value
+def get_name(fname, lname):
+  name = fname+' '+lname
+  return name.title()
+print('Full Name: ', get_name('john','doe'))
+
+# Making argument optional
+def get_name(fname, lname, mname=''):
+  if mname: name = fname+' '+mname+' '+lname
+  else: name = fname+' '+lname
+  return name.title()
+
+print('Full Name: ', get_name('john','lee','doe'))
+print('Full Name: ', get_name('john','doe'))
+
 """## Part II: Projects"""
