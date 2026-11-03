@@ -1,0 +1,10 @@
+{
+    "app_name": "FastAPI Server",
+    "status": "running",
+    "port": 8000,
+    "features": [
+        "async",
+        "CORS enabled",
+        "SQLAlchemy ORM"
+    ]
+}
